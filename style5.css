@@ -1,0 +1,133 @@
+@media (min-width: 992px) and (max-width: 1400px) {
+  .background {
+    background-image: url(assets/goa2.jpg);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    filter: brightness(0.4);
+  }
+
+  .page1 .logo {
+    width: 95vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 14px;
+  }
+
+  ul {
+    width: 550px;
+    justify-content: space-around;
+    display: flex;
+  }
+
+  ul a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    transition: all 0.3s ease-in-out;
+  }
+
+  ul a:nth-child(5) {
+    background-color: #12cb4a;
+    border-radius: 20px;
+  }
+
+  ul a:hover {
+    background-color: #3398ff;
+    border-radius: 15px;
+  }
+
+  .logo h5 {
+    width: 250px;
+    color: white;
+    padding-top: 10px;
+    cursor: default;
+  }
+
+  .page2 {
+    width: 40vw;
+    margin: auto;
+    margin-top: 45px;
+  }
+
+  .page2 .gambar img {
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+  }
+
+  .page2 .gambar {
+    width: 120px;
+    height: 120px;
+    margin: auto;
+    margin-bottom: 30px;
+  }
+
+  .page2 .form-floating {
+    color: white;
+  }
+
+  .page2 .form-floating i {
+    font-size: 26px;
+    position: absolute;
+    top: 17px;
+    left: 22px;
+  }
+
+  .page2 .form-floating input {
+    border-radius: 50px;
+    padding-left: 63px;
+    background-color: transparent;
+    color: white;
+    height: 65px;
+    font-size: 17px;
+  }
+
+  .page2 .form-floating label {
+    margin-left: 50px;
+    font-size: 18px;
+  }
+
+  .page2 button {
+    margin-top: 30px;
+    width: 100%;
+    border: none;
+    border-radius: 50px;
+    height: 55px;
+    padding-top: 10px;
+  }
+
+  .page2 .register {
+    color: white;
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 18px;
+  }
+
+  .page2 .register a {
+    color: white;
+    border-radius: 40px;
+    padding: 10px;
+  }
+
+  .page2 .register a:hover {
+    color: #12cb4a;
+  }
+
+  .page3 {
+    color: white;
+    width: 97vw;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    position: absolute;
+    bottom: 0;
+    left: 13px;
+  }
+}

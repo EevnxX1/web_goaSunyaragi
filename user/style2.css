@@ -1,0 +1,196 @@
+/* Ukuran Laptop */
+@media (min-width: 992px) and (max-width: 1400px) {
+  .page1 {
+    background-color: #353535;
+    padding-bottom: 80px;
+  }
+
+  .page1 .pembungkus1 {
+    width: 80vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .content1:nth-child(1) .carousel {
+    width: 53vw;
+    height: 420px;
+  }
+
+  .content1:nth-child(1) .carousel .carousel-inner .carousel-item img {
+    filter: brightness(0.5);
+    width: 53vw;
+    height: 420px;
+  }
+
+  .content1:nth-child(2) {
+    width: 26.7vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .content1:nth-child(2) a button {
+    height: 138px;
+    text-align: left;
+    background-color: #252222;
+    color: white;
+    border: none;
+    padding: 20px;
+  }
+
+  .content1:nth-child(2) a button span {
+    font-size: 12px;
+  }
+
+  .content1:nth-child(2) a button:hover {
+    transition: all 0.3s ease-in-out;
+    background-color: crimson;
+  }
+
+  .page1 .logo {
+    width: 95vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 14px;
+    margin-bottom: 40px;
+  }
+
+  ul {
+    width: 750px;
+    justify-content: space-between;
+    display: flex;
+  }
+
+  ul a:nth-child(6) {
+    margin-top: 3px;
+    color: white;
+    background-color: crimson;
+    border-radius: 20px;
+    padding: 9px;
+  }
+
+  ul a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    transition: all 0.3s ease-in-out;
+  }
+
+  ul a:hover {
+    background-color: #3398ff;
+    border-radius: 15px;
+  }
+
+  .logo img {
+    border-radius: 100px;
+    height: 50px;
+    width: 50px;
+  }
+
+  .page2 {
+    padding-top: 60px;
+    padding-bottom: 100px;
+  }
+
+  .page2 h3 {
+    width: fit-content;
+    margin-left: 10vw;
+    border-bottom: solid 3px crimson;
+    padding-bottom: 13px;
+    margin-bottom: 30px;
+  }
+
+  .page2 .pembungkus2 {
+    width: 80vw;
+    height: 700px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    overflow-y: scroll;
+  }
+
+  .pembungkus2 a button {
+    width: 38vw;
+    border: none;
+    text-align: left;
+    padding: 0;
+    background-color: white;
+    padding-bottom: 30px;
+  }
+
+  .pembungkus2 a button img {
+    width: 38vw;
+    height: 280px;
+    float: left;
+    margin-bottom: 15px;
+  }
+
+  .pembungkus2 a button span {
+    font-size: 13px;
+    color: gray;
+  }
+
+  .pembungkus2 a button h5 {
+    margin-top: 3px;
+  }
+
+  .pembungkus2 a button h5:hover {
+    transition: all 0.2s ease-in-out;
+    color: #3398ff;
+  }
+
+  .page6 {
+    background-color: #2e2e2e;
+    margin-top: -10px;
+    color: white;
+  }
+
+  .page6 .pembungkus {
+    width: 80vw;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-bottom: 50px;
+  }
+
+  .pembungkus .content:nth-child(1) {
+    width: 15vw;
+  }
+
+  .pembungkus .content:nth-child(2) {
+    width: 17vw;
+    line-height: 26px;
+  }
+
+  .pembungkus .content:nth-child(3) {
+    width: 13vw;
+    font-size: 18px;
+  }
+
+  .content:nth-child(3) span {
+    font-size: 15px;
+    color: lightgray;
+    text-decoration: line-through lightgray;
+  }
+
+  .pembungkus .content:nth-child(4) {
+    width: 15vw;
+    line-height: 30px;
+  }
+
+  .content:nth-child(1) img {
+    width: 70px;
+    height: 70px;
+    border-radius: 100px;
+    margin-bottom: 10px;
+  }
+
+  .page6 .copyright {
+    width: 80vw;
+    margin: auto;
+    padding-bottom: 15px;
+  }
+}

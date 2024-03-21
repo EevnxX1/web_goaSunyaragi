@@ -1,0 +1,533 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Ukuran Laptop */
+@media (min-width: 992px) and (max-width: 1400px) {
+  .background1 {
+    background-image: url(assets/goa2.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    filter: brightness(0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }
+
+  .page1 {
+    width: 100%;
+    height: 100vh;
+  }
+
+  ul {
+    width: 550px;
+    justify-content: space-around;
+    display: flex;
+  }
+
+  .page1 .logo {
+    width: 95vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 14px;
+  }
+
+  ul a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    transition: all 0.3s ease-in-out;
+  }
+
+  ul a:nth-child(5) {
+    background-color: #12cb4a;
+    border-radius: 20px;
+  }
+
+  ul a:hover {
+    background-color: #3398ff;
+    border-radius: 15px;
+  }
+
+  .logo img {
+    border-radius: 100px;
+    height: 50px;
+    width: 50px;
+  }
+
+  .teks1 {
+    width: 600px;
+    margin-left: 80px;
+    margin-top: 120px;
+    color: #fff;
+  }
+
+  .teks1 h4 {
+    margin-bottom: 30px;
+  }
+
+  .teks1 h1 {
+    margin-bottom: 30px;
+  }
+
+  .teks1 p {
+    margin-bottom: 40px;
+    text-shadow: none;
+  }
+
+  .teks1 button {
+    margin-bottom: 100px;
+    height: 50px;
+    border-radius: 10px;
+  }
+
+  .page2 {
+    background-color: gainsboro;
+    padding-top: 100px;
+    margin-bottom: -5px;
+  }
+
+  .arrow {
+    width: 20px;
+    margin: auto;
+  }
+
+  .arrow span {
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-bottom: 3px solid #3398ff;
+    border-right: 3px solid #3398ff;
+    transform: rotate(45deg);
+    margin: -9px;
+    animation: scroll 2s infinite;
+  }
+
+  .arrow span:nth-child(2) {
+    animation-delay: -0.2s;
+  }
+
+  .arrow span:nth-child(3) {
+    animation-delay: -0.4s;
+  }
+
+  @keyframes scroll {
+    0% {
+      opacity: 1;
+      transform: rotate(45deg) translate(-20px, -20px);
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+      transform: rotate(45deg) translate(-20px, -20px);
+    }
+  }
+
+  .page2 h2 {
+    text-align: center;
+    margin-bottom: 60px;
+  }
+
+  .pembungkus-card {
+    margin: auto;
+    width: 1100px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .pembungkus-card .card:nth-child(1),
+  .pembungkus-card .card:nth-child(2),
+  .pembungkus-card .card:nth-child(3) {
+    width: 353px;
+    background-color: white;
+    text-align: center;
+    border-radius: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border: none;
+    cursor: pointer;
+    top: 0;
+    transition: 0.5s ease;
+  }
+
+  .pembungkus-card .card:hover {
+    top: -40px;
+    box-shadow: 0px 65px 20px -30px rgba(0, 0, 0, 0.4);
+  }
+
+  .logo-card {
+    background-color: gainsboro;
+    width: 60px;
+    padding-top: 8px;
+    height: 60px;
+    border-radius: 100%;
+    margin: auto;
+    font-size: 30px;
+    color: #12cb4a;
+  }
+
+  .card h4 {
+    margin-top: 20px;
+  }
+
+  .card p {
+    color: gray;
+  }
+
+  .card .ukuran {
+    width: 300px;
+    margin: auto;
+  }
+
+  .page3 {
+    padding-top: 10px;
+    padding-bottom: 40px;
+  }
+
+  .page3 h2 {
+    text-align: center;
+    margin-bottom: 80px;
+  }
+
+  .page3 .bungkus {
+    width: 80vw;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .bungkus .konten1 {
+    width: 75vw;
+  }
+
+  .bungkus .konten1:nth-child(2),
+  .bungkus .konten1:nth-child(4),
+  .bungkus .konten1:nth-child(6),
+  .bungkus .konten1:nth-child(8),
+  .bungkus .konten1:nth-child(10),
+  .bungkus .konten1:nth-child(12),
+  .bungkus .konten1:nth-child(14) {
+    position: relative;
+    top: -55px;
+    margin-bottom: -120px;
+  }
+
+  .konten1 .background {
+    width: 40vw;
+    height: 420px;
+    background-color: gainsboro;
+    float: left;
+    box-shadow: 9px 16px 41px 0px rgba(0, 0, 0, 0.75) inset;
+    -webkit-box-shadow: 9px 16px 41px 0px rgba(0, 0, 0, 0.75) inset;
+    -moz-box-shadow: 9px 16px 41px 0px rgba(0, 0, 0, 0.75) inset;
+  }
+
+  .konten1:nth-child(2) .background,
+  .konten1:nth-child(4) .background,
+  .konten1:nth-child(6) .background,
+  .konten1:nth-child(8) .background,
+  .konten1:nth-child(10) .background,
+  .konten1:nth-child(12) .background,
+  .konten1:nth-child(14) .background {
+    width: 40vw;
+    height: 440px;
+    background-color: #12cb4a;
+    float: right;
+    box-shadow: -5px 12px 41px 0px rgba(0, 0, 0, 0.75) inset;
+    -webkit-box-shadow: -5px 12px 41px 0px rgba(0, 0, 0, 0.75) inset;
+    -moz-box-shadow: -5px 12px 41px 0px rgba(0, 0, 0, 0.75) inset;
+  }
+
+  .konten1 .teks2 {
+    width: 25vw;
+    text-align: justify;
+    margin: auto;
+    padding: 40px;
+    padding-top: 60px;
+    font-family: Georgia, serif;
+  }
+
+  .konten1:nth-child(3) .teks2 {
+    padding: 60px;
+    padding-top: 100px;
+    width: 27vw;
+  }
+
+  .konten1:nth-child(2) .teks2,
+  .konten1:nth-child(4) .teks2,
+  .konten1:nth-child(6) .teks2,
+  .konten1:nth-child(8) .teks2,
+  .konten1:nth-child(10) .teks2,
+  .konten1:nth-child(12) .teks2,
+  .konten1:nth-child(14) .teks2 {
+    width: 29vw;
+    text-align: justify;
+    margin: auto;
+    padding: 40px;
+    padding-top: 60px;
+    font-family: Georgia, serif;
+    color: white;
+  }
+
+  .teks2 h3 {
+    margin-bottom: 20px;
+  }
+
+  .konten1 img {
+    width: 35vw;
+    height: 300px;
+    filter: brightness(0.8);
+    float: right;
+    position: relative;
+    right: 80px;
+    top: 20px;
+    box-shadow: 15px 17px 11px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 15px 17px 11px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 15px 17px 11px 0px rgba(0, 0, 0, 0.75);
+  }
+
+  .konten1:nth-child(2) img,
+  .konten1:nth-child(4) img,
+  .konten1:nth-child(6) img,
+  .konten1:nth-child(8) img,
+  .konten1:nth-child(10) img,
+  .konten1:nth-child(12) img,
+  .konten1:nth-child(14) img {
+    width: 35vw;
+    height: 300px;
+    filter: brightness(0.8);
+    float: left;
+    position: relative;
+    right: -50px;
+    top: 30px;
+    box-shadow: 15px 17px 11px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 15px 17px 11px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 15px 17px 11px 0px rgba(0, 0, 0, 0.75);
+  }
+
+  .page4 {
+    background-color: gainsboro;
+    padding-top: 20px;
+    padding-bottom: 80px;
+    margin-bottom: -5px;
+  }
+
+  .page4 h1 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .page4 .gambar {
+    background-image: url(assets/goa.jpg);
+    background-size: cover;
+    width: 800px;
+    height: 500px;
+    margin: auto;
+    box-shadow: 10px 16px 11px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 10px 16px 11px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 16px 11px 0px rgba(0, 0, 0, 0.75);
+  }
+
+  .gambar .kotak1 {
+    border: solid 1px gray;
+    border-radius: 150px;
+    border-bottom-right-radius: 0;
+    background-color: white;
+    text-align: justify;
+    padding: 40px;
+    padding-top: 50px;
+    width: 34vw;
+    height: 270px;
+    position: relative;
+    font-size: 16px;
+    right: 120px;
+    top: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: none;
+  }
+
+  .gambar .kotak2 {
+    border: solid 1px gray;
+    border-radius: 150px;
+    border-bottom-left-radius: 0;
+    background-color: white;
+    text-align: justify;
+    padding: 40px;
+    padding-top: 60px;
+    width: 40vw;
+    height: 280px;
+    position: relative;
+    font-size: 16px;
+    left: 470px;
+    top: -130px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: none;
+  }
+
+  .page5 {
+    margin-top: -30px;
+    margin-bottom: -60px;
+  }
+
+  .page5 h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .page5 p {
+    text-align: justify;
+    width: 800px;
+    margin: auto;
+    margin-bottom: 50px;
+    font-size: 18px;
+  }
+
+  .page5 .bungkus-foto {
+    width: 900px;
+    height: 600px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+  }
+
+  .team {
+    width: 280px;
+    height: 380px;
+    border-radius: 5px;
+  }
+
+  .team:nth-child(1) {
+    background-image: url(assets/rayhan.jpeg);
+    background-size: cover;
+  }
+
+  .team:nth-child(2) {
+    background-image: url(assets/mifta1.jpeg);
+    background-size: cover;
+  }
+
+  .team:nth-child(3) {
+    background-image: url(assets/farhan.jpeg);
+    background-size: cover;
+  }
+
+  .team .nama {
+    text-align: center;
+    width: 250px;
+    height: 80px;
+    margin: auto;
+    position: relative;
+    top: 340px;
+    font-size: 18px;
+    color: white;
+    padding: 10px;
+    box-shadow: 12px 16px 11px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 12px 16px 11px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 12px 16px 11px 0px rgba(0, 0, 0, 0.75);
+  }
+
+  .team:nth-child(1) .nama {
+    background-color: #3398ff;
+  }
+  .team:nth-child(2) .nama {
+    background-color: gray;
+  }
+  .team:nth-child(3) .nama {
+    background-color: #12cb4a;
+  }
+
+  .page6 {
+    background-color: #2e2e2e;
+    margin-top: -10px;
+    color: white;
+  }
+
+  .page6 .pembungkus {
+    width: 80vw;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-bottom: 50px;
+  }
+
+  .pembungkus .content:nth-child(1) {
+    width: 15vw;
+  }
+
+  .pembungkus .content:nth-child(2) {
+    width: 17vw;
+    line-height: 26px;
+  }
+
+  .pembungkus .content:nth-child(3) {
+    width: 13vw;
+    font-size: 18px;
+  }
+
+  .content:nth-child(3) span {
+    font-size: 15px;
+    color: lightgray;
+    text-decoration: line-through lightgray;
+  }
+
+  .pembungkus .content:nth-child(4) {
+    width: 15vw;
+    line-height: 30px;
+  }
+
+  .content:nth-child(1) img {
+    width: 70px;
+    height: 70px;
+    border-radius: 100px;
+    margin-bottom: 10px;
+  }
+
+  .page6 .copyright {
+    width: 80vw;
+    margin: auto;
+    padding-bottom: 15px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1249px) {
+  ul {
+    left: 600px;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1149px) {
+  .pembungkus-card {
+    margin: auto;
+    width: 950px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .card:nth-child(1),
+  .card:nth-child(2),
+  .card:nth-child(3) {
+    width: 300px;
+    background-color: white;
+    text-align: center;
+    border-radius: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border: none;
+  }
+
+  .card .ukuran {
+    width: 250px;
+    margin: auto;
+  }
+
+  .card:nth-child(3) h4 {
+    margin-bottom: 31px;
+  }
+}

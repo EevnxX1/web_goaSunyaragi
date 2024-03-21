@@ -1,0 +1,237 @@
+@media (min-width: 992px) and (max-width: 1400px) {
+  .background {
+    background-image: url(../assets/goa.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 1900px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    filter: brightness(0.5);
+  }
+
+  .page1 .logo {
+    width: 95vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 14px;
+    margin-bottom: 40px;
+  }
+
+  ul {
+    width: 750px;
+    justify-content: space-between;
+    display: flex;
+  }
+
+  ul a:nth-child(6) {
+    margin-top: 3px;
+    color: white;
+    background-color: #12cb4a;
+    border-radius: 20px;
+    padding: 9px;
+  }
+
+  ul a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    transition: all 0.3s ease-in-out;
+  }
+
+  ul a:hover {
+    background-color: #3398ff;
+    border-radius: 15px;
+  }
+
+  .logo img {
+    border-radius: 100px;
+    height: 50px;
+    width: 50px;
+  }
+
+  .page2 {
+    width: 50vw;
+    background-color: white;
+    margin: auto;
+    border-radius: 25px;
+    overflow: hidden;
+  }
+
+  .page2 .h2 {
+    height: 70px;
+    width: 100%;
+    background-color: #3398ff;
+    color: white;
+    padding: 20px;
+  }
+
+  .page2 .kotak {
+    width: 46vw;
+    margin: auto;
+  }
+
+  .kotak p {
+    color: gray;
+    font-size: 17px;
+  }
+
+  .kotak .table {
+    border-bottom: dotted 2px gray;
+    padding-bottom: 10px;
+    margin-top: -10px;
+  }
+
+  .kotak .table table {
+    width: 100%;
+    height: 200px;
+    font-size: 19px;
+  }
+
+  .kotak .table table tr {
+    border: none;
+  }
+
+  table tr td:first-child {
+    color: gray;
+    font-weight: 500;
+  }
+  table tr td:last-child {
+    font-weight: 700;
+  }
+
+  .kotak .total {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    padding-top: 8px;
+    margin-bottom: 20px;
+  }
+
+  .kotak .total h3 {
+    margin-top: 8px;
+  }
+
+  .page3 {
+    width: 30vw;
+    background-color: white;
+    margin: auto;
+    border-radius: 25px;
+    overflow: hidden;
+    margin-top: 50px;
+  }
+
+  .page3 h2 {
+    height: 75px;
+    width: 100%;
+    background-color: #3398ff;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .page3 .pembungkus {
+    width: 30vw;
+    margin: auto;
+    padding: 20px;
+  }
+
+  .pembungkus .opsi {
+    height: 100px;
+    width: fit-content;
+    margin: auto;
+    margin-bottom: 50px;
+  }
+
+  .pembungkus .opsi label input {
+    position: absolute;
+    visibility: hidden;
+  }
+
+  .pembungkus .opsi label {
+    padding-bottom: 35px;
+    border-bottom: 3px dotted gray;
+  }
+
+  .pembungkus .opsi label img {
+    height: 90px;
+    width: 20vw;
+    cursor: pointer;
+    transition: all 0.4s ease;
+  }
+
+  .pembungkus .opsi label img:hover {
+    transform: scale(1.2);
+  }
+
+  .pembungkus .opsi label input:checked + img {
+    border: 4px solid #3398ff;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+
+  .pembungkus button {
+    width: 100%;
+    height: 60px;
+    font-size: 30px;
+    font-weight: 600;
+  }
+
+  .page6 {
+    background-color: #2e2e2e;
+    margin-top: -100px;
+    color: white;
+    height: 285px;
+  }
+
+  .page6 .pembungkus {
+    width: 80vw;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-bottom: 50px;
+    margin-top: 80px;
+  }
+
+  .pembungkus .content:nth-child(1) {
+    width: 15vw;
+  }
+
+  .pembungkus .content:nth-child(2) {
+    width: 17vw;
+    line-height: 26px;
+  }
+
+  .pembungkus .content:nth-child(3) {
+    width: 13vw;
+    font-size: 18px;
+  }
+
+  .content:nth-child(3) span {
+    font-size: 15px;
+    color: lightgray;
+    text-decoration: line-through lightgray;
+  }
+
+  .pembungkus .content:nth-child(4) {
+    width: 15vw;
+    line-height: 30px;
+  }
+
+  .content:nth-child(1) img {
+    width: 70px;
+    height: 70px;
+    border-radius: 100px;
+    margin-bottom: 10px;
+  }
+
+  .page6 .copyright {
+    width: 80vw;
+    margin: auto;
+    padding-bottom: 15px;
+  }
+}

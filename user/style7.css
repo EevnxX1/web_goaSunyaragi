@@ -1,0 +1,216 @@
+@media (min-width: 992px) and (max-width: 1400px) {
+  body::before {
+    content: '';
+    background-image: url(../assets/goa2.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 125vh;
+    filter: brightness(0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -9999;
+  }
+
+  .page1 {
+    width: 100%;
+    height: 100vh;
+    margin-bottom: -40px;
+  }
+
+  ul {
+    width: 750px;
+    justify-content: space-between;
+    display: flex;
+  }
+
+  ul a:nth-child(6) {
+    margin-top: 3px;
+    color: white;
+    background-color: #12cb4a;
+    border-radius: 20px;
+    padding: 9px;
+  }
+
+  .page1 .logo {
+    width: 95vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 14px;
+  }
+
+  ul a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    transition: all 0.3s ease-in-out;
+  }
+
+  ul a:hover {
+    background-color: #3398ff;
+    border-radius: 15px;
+  }
+
+  .logo img {
+    border-radius: 100px;
+    height: 50px;
+    width: 50px;
+  }
+
+  .container {
+    width: 80%;
+    height: 550px;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 70px;
+    margin-top: 40px;
+  }
+
+  .container .foto-profile {
+    flex: 1;
+    padding-right: 40px;
+    color: white;
+  }
+
+  .foto-profile h2 {
+    padding-left: 26px;
+    margin-bottom: 20px;
+  }
+
+  .container .foto-profile .border-profile {
+    font-size: 100px;
+    border: 5px solid gainsboro;
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    text-align: center;
+    border-radius: 50%;
+    color: white;
+  }
+
+  .border-profile i {
+    transform: translateY(-10px);
+  }
+
+  .border-profile:hover i {
+    animation: rotate 1s ease-in-out;
+  }
+
+  @keyframes rotate {
+    0%,
+    100% {
+      transform: rotate(0deg) translateY(-10px);
+    }
+    40% {
+      transform: rotate(35deg) translateY(-10px);
+    }
+    80% {
+      transform: rotate(-35deg) translateY(-10px);
+    }
+  }
+
+  .container .data-diri {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    flex: 3;
+    justify-content: space-between;
+  }
+
+  .form {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .form .bagian {
+    width: 45%;
+  }
+
+  .form:nth-child(1) .bagian,
+  .form:nth-child(4) .bagian,
+  .form:nth-child(5) .bagian {
+    width: 100%;
+  }
+  .form label {
+    color: white;
+    font-size: 20px;
+  }
+
+  .form .input {
+    height: 40px;
+  }
+
+  .form button {
+    width: 120px;
+    height: 50px;
+    background-color: #12cb4a;
+    color: white;
+    font-weight: 650;
+    border: none;
+    border-radius: 5px;
+    transition: 0.3s ease;
+  }
+
+  .form button:hover {
+    background-color: #3398ff;
+  }
+
+  .form button:active {
+    transform: scale(0.9);
+  }
+
+  /* ~~~~~~~ */
+
+  .page6 {
+    background-color: #2e2e2e;
+    margin-top: -10px;
+    color: white;
+  }
+
+  .page6 .pembungkus {
+    width: 80vw;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-bottom: 50px;
+  }
+
+  .pembungkus .content:nth-child(1) {
+    width: 15vw;
+  }
+
+  .pembungkus .content:nth-child(2) {
+    width: 17vw;
+    line-height: 26px;
+  }
+
+  .pembungkus .content:nth-child(3) {
+    width: 13vw;
+    font-size: 18px;
+  }
+
+  .content:nth-child(3) span {
+    font-size: 15px;
+    color: lightgray;
+    text-decoration: line-through lightgray;
+  }
+
+  .pembungkus .content:nth-child(4) {
+    width: 15vw;
+    line-height: 30px;
+  }
+
+  .content:nth-child(1) img {
+    width: 70px;
+    height: 70px;
+    border-radius: 100px;
+    margin-bottom: 10px;
+  }
+
+  .page6 .copyright {
+    width: 80vw;
+    margin: auto;
+    padding-bottom: 15px;
+  }
+}

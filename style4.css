@@ -1,0 +1,107 @@
+.background {
+  background-image: url(assets/goa2.jpg);
+  height: 120vh;
+  width: 100%;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  filter: brightness(0.4);
+}
+
+.page1 .logo {
+  width: 95vw;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 14px;
+  margin-bottom: 60px;
+}
+
+ul {
+  width: 550px;
+  justify-content: space-around;
+  display: flex;
+}
+
+ul a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  transition: all 0.3s ease-in-out;
+}
+
+ul a:nth-child(5) {
+  background-color: #12cb4a;
+  border-radius: 20px;
+}
+
+ul a:hover {
+  background-color: #3398ff;
+  border-radius: 15px;
+}
+
+.logo img {
+  border-radius: 100px;
+  height: 50px;
+  width: 50px;
+}
+
+.page2 {
+  width: 70vw;
+  margin: auto;
+  color: white;
+}
+
+.page2 h2 {
+  margin-bottom: 30px;
+}
+
+.form-floating label {
+  color: darkgray;
+  font-family: sans-serif;
+  font-weight: 600;
+  padding-bottom: 10px;
+}
+
+.form:nth-child(2),
+.form:nth-child(3) {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.form:nth-child(2) .input1 {
+  width: 15vw;
+}
+
+.form:nth-child(2) .input2 {
+  width: 55vw;
+  margin-top: 20px;
+}
+
+.form:nth-child(3) .input2 {
+  width: 34vw;
+  margin-top: 31px;
+}
+
+.form:nth-child(3) .input1 input {
+  height: 56px;
+  width: 34vw;
+}
+
+.form:nth-child(4),
+.form:nth-child(5) {
+  margin-top: 25px;
+}
+
+.form:nth-child(5) .checkbox {
+  margin-top: -10px;
+}
+
+.page2 button {
+  margin-top: 30px;
+  padding: 15px;
+}
